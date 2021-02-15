@@ -37,7 +37,7 @@ Mover os arquivos (docker-compose.yml e env_laradocker) para a pasta laradock (o
 
 4º Mover o arquivo (corridas.conf) para a pasta nginx/sites.
 
-5º Executar os seguintes comandos:
+5º Entrar na pasta laradock e executar os seguintes comandos:
 
 sudo docker-compose build nginx mysql php-fpm phpmyadmin (preparando os arquivos do laradock)
 sudo docker-compose up -d nginx mysql phpmyadmin (executando o ambiente do laradocker)
