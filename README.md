@@ -29,13 +29,15 @@ Sua estrutura de pastas deve ser semelhante a esta:
 
 1º Entrar na pasta "laradock" e clonar este repositório.
 
-2º Substituir os seguintes arquivos da pasta laradock:
+2º Entrar na pasta corridas.
+
+3º Substituir os seguintes arquivos da pasta laradock:
 
 Mover os arquivos (docker-compose.yml e env_laradocker) para a pasta laradock (onde foi clonado o laradock), trocando o nome do arquivo env_laradocker para .env
 
-3º Mover o arquivo (corridas.conf) para a pasta nginx/sites.
+4º Mover o arquivo (corridas.conf) para a pasta nginx/sites.
 
-4º Executar os seguintes comandos:
+5º Executar os seguintes comandos:
 
 sudo docker-compose build nginx mysql php-fpm phpmyadmin (preparando os arquivos do laradock)
 sudo docker-compose up -d nginx mysql phpmyadmin (executando o ambiente do laradocker)
